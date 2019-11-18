@@ -1,0 +1,27 @@
+/* Add here all your CSS customizations */
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,600");
+
+
+logo {
+
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.logo-medium{
+  color:#000;
+  position:relative;
+  top:30px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5em;
+}
+
+.black{
+  background-color: black;
+
+}
+
+
+.float-right{
+  float:right;
+}
