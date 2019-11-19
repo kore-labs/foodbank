@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => 'NextBin', //env('APP_NAME', 'NextBin'),
+    'name' => 'FoodBank', //env('APP_NAME', 'NextBin'),
 
     /*
     |--------------------------------------------------------------------------
