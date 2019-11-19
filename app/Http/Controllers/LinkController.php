@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\ContactForm;
+
 
 class LinkController extends Controller
 {
@@ -44,5 +46,15 @@ class LinkController extends Controller
         return view('dashboard.get-started');
     }
 
+
+    public function contactForm(){
+
+      $to_name = "NikkoDutra";
+      $to_email = "nikko.novitas@gmail.com";
+      $data = array('name'=>'test', 'body' => 'A test mail');
+
+      Mail::to($to_email)->send(new ContactForm());
+
+    }
 
 }

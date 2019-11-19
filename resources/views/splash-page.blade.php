@@ -10,14 +10,15 @@
 
 	@include('story-components.how-our-service-works')
 
-	@include('story-components.pricing')
+	@include('story-components.food-recovery')
+
+	@include('story-components.collection-partners')
 
 	@include('story-components.farms')
 
-	@include('story-components.customers')
 
-	{{--	@include('story-components.contact') --}}
-	
+	@include('story-components.contact')
+
 	@include('story-components.footer')
 
 @endsection

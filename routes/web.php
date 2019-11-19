@@ -23,6 +23,11 @@ Route::get('/get-started', function () {
 });
 //'LinkController@getStarted');
 
+//Wildcard Registration
+Route::get('/signup', function () {
+
+    return view('auth.register');
+});
 
 //Wildcard Registration
 Route::get('{type}/signup', function () {

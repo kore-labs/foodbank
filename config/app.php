@@ -228,4 +228,7 @@ return [
 
     ],
 
+    'account_status'     => ['active','suspended','blocked','pending'],
+
+
 ];
