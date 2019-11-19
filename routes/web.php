@@ -17,14 +17,17 @@ Route::get('/', function () {
     return view('splash-page');
 });
 
-Route::get('/get-started', 'LinkController@getStarted');
+Route::get('/get-started', function () {
+
+    return view('auth.register');
+});
+//'LinkController@getStarted');
 
 
 //Wildcard Registration
 Route::get('{type}/signup', function () {
-  return view('dashboard.get-started');
 
-    //return view('auth.register');
+    return view('auth.register');
 })->name('signup');
 
 
