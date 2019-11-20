@@ -230,5 +230,10 @@ return [
 
     'account_status'     => ['active','suspended','blocked','pending'],
 
+    'Barryvdh\Debugbar\ServiceProvider',
+
+    'Debugbar' => 'Barryvdh\Debugbar\Facade',
+
+
 
 ];

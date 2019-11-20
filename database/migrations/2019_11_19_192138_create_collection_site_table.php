@@ -15,11 +15,11 @@ class CreateCollectionSiteTable extends Migration
     {
         Schema::create('collection_site', function (Blueprint $table) {
 
-          $table->bigIncrements('id')->unique();
+          $table->string('id');
 
-          $table->bigInteger('primaryCollectorId')->unique();
+          $table->bigInteger('primaryCollectorId');
 
-          $table->bigInteger('previousCollectorId')->unique();
+          $table->bigInteger('previousCollectorId');
 
           //start-date and end-date,
           $table->dateTime('last_collection_date_time');
@@ -29,7 +29,7 @@ class CreateCollectionSiteTable extends Migration
 
 
           $table->string('contact_name');
-          $table->string('email')->unique();
+          $table->string('email');
 
           $table->string('business_type');
           $table->string('business_name');
@@ -50,6 +50,10 @@ class CreateCollectionSiteTable extends Migration
 
           $theStatus = \Config::get('app.account_status');
           $table->enum('status', $theStatus)->default($theStatus[0]);
+
+          $table->primary(['scheduled_collection_day', 'scheduled_collection_time', 'business_address', 'zip', 'business_name'], 'unique_key');
+
+
         });
     }
 

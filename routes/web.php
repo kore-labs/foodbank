@@ -17,29 +17,32 @@ Route::get('/', function () {
     return view('splash-page');
 });
 
-Route::get('/get-started', function () {
-
-    return view('auth.register');
+Route::get('/signin', function () {
+    return view('auth.login');
 });
-//'LinkController@getStarted');
 
-//Wildcard Registration
 Route::get('/signup', function () {
-
-    return view('auth.register');
-});
-
-//Wildcard Registration
-Route::get('{type}/signup', function () {
-
     return view('auth.register');
 })->name('signup');
 
 
+
+//Contact form logic on splash page
+Route::post('/contact/send-mail', 'LinkController@contactForm')->name('contact');
+
+//Profile Setup
+Route::post('/business-info/save', 'HomeController@businessInfo');
+
+//Add Location
+Route::post('/collection/add-location', 'HomeController@addLocation');
+
+//Add Location
+Route::post('/collection/delete', 'HomeController@deleteLocation');
+
 //Login and Registration
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home')->middleware(['auth']);
+Route::get('/home', 'HomeController@profile')->name('home')->middleware(['auth']);
 
 Route::get('/profile', 'HomeController@profile')->name('profile')->middleware(['auth']);
 

@@ -8,7 +8,8 @@
           <div class="content">
 
 
-            <form method="post" action="#">
+            <form method="post" action="/contact/send-mail">
+              @csrf
               <div class="fields">
                 <div class="field">
                   <label for="name">Name</label>
@@ -22,7 +23,7 @@
                 </div>
                 <div class="field half">
                   <label for="email">Phone</label>
-                  <input type="email" name="email" id="email" value="">
+                  <input type="text" name="phone" id="phone" value="">
                 </div>
                 <div class="field">
                   <label for="department">Department</label>

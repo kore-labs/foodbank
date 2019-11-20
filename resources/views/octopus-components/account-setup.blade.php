@@ -22,17 +22,18 @@
 												<li class="active">
 													<a href="#w4-profile" data-toggle="tab" aria-expanded="true"><span>2</span>Business Info</a>
 												</li>
-												<li>
+												<!--<li>
 													<a href="#w4-billing" data-toggle="tab"><span>3</span>Billing Info</a>
-												</li>
+												</li>-->
 												<li>
-													<a href="#w4-confirm" data-toggle="tab"><span>4</span>Confirmation</a>
+													<a href="#w4-confirm" data-toggle="tab"><span>3</span>Confirmation</a>
 												</li>
 											</ul>
 										</div>
 
-										<form class="form-horizontal" novalidate="novalidate">
-											<div class="tab-content">
+										<form class="form-horizontal" novalidate="novalidate" id="infoForm" method="post" action="/business-info/save">
+                      @csrf
+                    	<div class="tab-content">
 												<div id="w4-account" class="tab-pane">
 													<div class="form-group">
 														<label class="col-sm-3 control-label" for="w4-username">Username</label>
@@ -55,7 +56,7 @@
 														</div>
 													</div>
 													<div class="form-group">
-														<label class="col-sm-3 control-label" for="w4-address">Service Address</label>
+														<label class="col-sm-3 control-label" for="w4-address">Address</label>
 														<div class="col-sm-9">
 															<input type="text" class="form-control" name="address" id="w4-address" required="">
 														</div>
@@ -69,7 +70,7 @@
                           <div class="form-group">
                             <label class="col-sm-3 control-label" for="w4-state">State</label>
                             <div class="col-sm-9">
-                              <input type="text" class="form-control" name="State" id="w4-state" required="">
+                              <input type="text" class="form-control" name="state" id="w4-state" required="">
                             </div>
                           </div>
                           <div class="form-group">
@@ -92,9 +93,9 @@
                           </div>
 
 												</div>
-												<div id="w4-billing" class="tab-pane">
+											<!--	<div id="w4-billing" class="tab-pane">
 													<div class="form-group">
-														<label class="col-sm-3 control-label" for="w4-cc">Card Number</label>
+														<label class="col-sm-3 control-label" for="w4-cc"></label>
 														<div class="col-sm-9">
 															<input type="text" class="form-control" name="cc-number" id="w4-cc" required="">
 														</div>
@@ -131,24 +132,32 @@
 															</select>
 														</div>
 													</div>
-												</div>
-												<div id="w4-confirm" class="tab-pane">
-													<div class="form-group">
+												</div> -->
+
+                        <div id="w4-confirm" class="tab-pane">
+													<!--<div class="form-group">
 														<label class="col-sm-3 control-label" for="w4-email">Email</label>
 														<div class="col-sm-9">
 															<input type="text" class="form-control" name="email" id="w4-email" required="">
 														</div>
 													</div>
+                          <h2 style="text-align:center"> Confirm </h2>
+                        -->
+
+
+                          @include('octopus-components.terms')
+
 													<div class="form-group">
 														<div class="col-sm-3"></div>
 														<div class="col-sm-9">
 															<div class="checkbox-custom">
-																<input type="checkbox" name="terms" id="w4-terms" required="">
+																<input type="checkbox" name="terms" id="w4-terms" onclick="acceptTerms()" required="" >
 																<label for="w4-terms">I agree to the terms of service</label>
 															</div>
 														</div>
 													</div>
 												</div>
+
 											</div>
 										</form>
 									</div>
@@ -158,7 +167,7 @@
 												<a><i class="fa fa-angle-left"></i> Previous</a>
 											</li>
 											<li class="finish hidden pull-right">
-												<a>Finish</a>
+												<a class="noDisplay" id="finish-btn" onclick="submitFormData()">Finish</a>
 											</li>
 											<li class="next">
 												<a>Next <i class="fa fa-angle-right"></i></a>
@@ -168,3 +177,23 @@
 								</section>
 							</div>
 						</div>
+
+            <script>
+
+              function acceptTerms(){
+
+                var val = document.getElementById('w4-terms').checked;
+                  if( val ) {
+                      document.getElementById('finish-btn').style.visibility = "visible";
+                  }else{
+                    document.getElementById('finish-btn').style.visibility = "hidden";
+                  }
+
+              }
+
+              function submitFormData(){
+                document.getElementById('infoForm').submit();
+              }
+
+
+            </script>

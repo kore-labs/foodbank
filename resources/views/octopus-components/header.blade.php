@@ -72,11 +72,11 @@
     <div id="userbox" class="userbox">
       <a href="#" data-toggle="dropdown">
         <figure class="profile-picture">
-          <img src="/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="/images/!logged-user.jpg" />
+          <img src="/images/!logged-user.jpg" alt="{{ auth()->user()->name }}" class="img-circle" data-lock-picture="/images/!logged-user.jpg" />
         </figure>
-        <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
-          <span class="name">Karl Strauss</span>
-          <span class="role">San Diego</span>
+        <div class="profile-info" data-lock-name="{{ auth()->user()->name }}" data-lock-email="{{ auth()->user()->email }}">
+          <span class="name">{{ auth()->user()->name }}</span>
+          <!--<span class="role">San Diego</span>-->
         </div>
 
         <i class="fa custom-caret"></i>
