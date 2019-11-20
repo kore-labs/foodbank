@@ -28,7 +28,7 @@
         </li>
       </ul>
       <ul class="actions stacked">
-        <li><a href="/get-started" class="button">Signup Now.</a></li>
+        <li><a href="/signup" class="button">Signup Now.</a></li>
       </ul>
     </div>
     <div class="image">

@@ -8,7 +8,7 @@
         <li><a href="/profile" class="button medium wide smooth-scroll">Login</a></li>
 
         <!--<li><a href="/login" class="button medium wide smooth-scroll-middle">Login</a></li>-->
-        <li><a href="/get-started" class="button medium wide smooth-scroll-middle">Signup</a></li>
+        <li><a href="/signup" class="button medium wide smooth-scroll-middle">Signup</a></li>
 
           </br>
         <li><a href="#contact" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>

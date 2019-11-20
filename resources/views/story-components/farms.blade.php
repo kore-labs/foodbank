@@ -14,7 +14,7 @@
 			</br></br>Are you a farmer?
 		</br><a href="#">Join</a> the {{ config('app.name', 'NextBin') }} Farm Alliance.
 		</p>
-		<a class="button small" href="/farmer/signup">Coming Soon.</a>
+		<a class="button small" href="#">Coming Soon.</a>
 
 	</div>
 
