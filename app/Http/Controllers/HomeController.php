@@ -163,6 +163,15 @@ $table->decimal('longitude', 11, 8);
     }
 
 
+    public function deferLocation(Request $aRequest){
+
+      //DB::table('collection_site')->where('id', $aRequest->input('id') )->update();
+
+      return view('dashboard.user-profile');
+
+    }
+
+
 
 
 }

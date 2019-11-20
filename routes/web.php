@@ -36,8 +36,12 @@ Route::post('/business-info/save', 'HomeController@businessInfo');
 //Add Location
 Route::post('/collection/add-location', 'HomeController@addLocation');
 
-//Add Location
+//delete Location
 Route::post('/collection/delete', 'HomeController@deleteLocation');
+
+//defer Location
+Route::post('/collection/defer', 'HomeController@deferLocation');
+
 
 //Login and Registration
 Auth::routes();
