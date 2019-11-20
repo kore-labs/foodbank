@@ -5,10 +5,10 @@ Laravel Project built on Laradock
 
 ### Screenshot
 
-![Octopus admin dashboard template preview](https://public-github-image.s3-us-west-1.amazonaws.com/nextbin.png)
+![Octopus admin dashboard template preview](http://ec2-3-134-105-187.us-east-2.compute.amazonaws.com/demo.png)
 
 
-### Demo Site: [Here](http://ec2-13-59-154-138.us-east-2.compute.amazonaws.com/)
+### Demo Site: [Here](http://ec2-3-134-105-187.us-east-2.compute.amazonaws.com/)
 
 ### Changelog
 #### V 1.0.0
