@@ -7,14 +7,14 @@
           Only pay for what you use.
           <ul>
             <li>
-              $95 per month covers the cost of 8 <logo>{{ config('app.name', 'AirBNB-Spider') }}</logo>s.
+              $95 per month covers the cost of 8 <logo>{{ config('app.name', 'FoodBank') }}</logo>s.
             </li>
 
             <li>
-             Pay $2.00 for each addtional <logo>{{ config('app.name', 'AirBNB-Spider') }}</logo> you fill.
+             Pay $2.00 for each addtional <logo>{{ config('app.name', 'FoodBank') }}</logo> you fill.
            </li>
            <li>
-             Purchase up to 280 <logo>{{ config('app.name', 'AirBNB-Spider') }}</logo>s for your onsite food waste management.
+             Purchase up to 280 <logo>{{ config('app.name', 'FoodBank') }}</logo>s for your onsite food waste management.
            </li>
            </ul>
         </li>

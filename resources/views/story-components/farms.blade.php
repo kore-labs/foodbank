@@ -12,7 +12,7 @@
 
 		</br>Nature has developed the perfect recycling system, let us use it!
 			</br></br>Are you a farmer?
-		</br><a href="#">Join</a> the {{ config('app.name', 'AirBNB-Spider') }} Farm Alliance.
+		</br><a href="#">Join</a> the {{ config('app.name', 'FoodBank') }} Farm Alliance.
 		</p>
 		<a class="button small" href="#">Coming Soon.</a>
 

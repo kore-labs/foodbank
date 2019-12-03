@@ -17,5 +17,5 @@ Under Development
 [Nikko Dutra](http://www.NikkoDutra.com)
 
 ### Copyright
-AirBNB-Spider.
+FoodBank.
 # air-spider

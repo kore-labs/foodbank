@@ -9,14 +9,14 @@
 										</div>
 										<div class="col-sm-6 text-right mt-md mb-md">
 											<address class="ib mr-xlg">
-												<logo class="logo title"> {{ config('app.name', 'AirBNB-Spider') }}</logo>
+												<logo class="logo title"> {{ config('app.name', 'FoodBank') }}</logo>
 
 												<br>
 												Business Address
 												<br>
 												Phone: (858) 225 4858
 												<br>
-												{{ config('app.name', 'AirBNB-Spider') }}.Help@gmail.com
+												{{ config('app.name', 'FoodBank') }}.Help@gmail.com
 											</address>
 											<div class="ib">
 
