@@ -8,7 +8,7 @@
 		<div class="inner-body mailbox-email">
 			<div class="mailbox-email-header mb-lg">
 				<h3 class="mailbox-email-subject m-none text-light">
-				 {{ config('app.name', 'NextBin') }} Customer Support
+				 {{ config('app.name', 'AirBNB-Spider') }} Customer Support
 				</h3>
 
 				<p class="mt-lg mb-none text-md">Support Ticket: #123714</a>, started on July, 05, 2014</p>
@@ -24,7 +24,7 @@
 								<a href="#" class="fa fa-star-o"></a>
 							</div>
 
-							<p class="panel-title">You <i class="fa fa-angle-right fa-fw"></i> {{ config('app.name', 'NextBin') }}
+							<p class="panel-title">You <i class="fa fa-angle-right fa-fw"></i> {{ config('app.name', 'AirBNB-Spider') }}
 
 						</div>
 						<div class="panel-body">
@@ -48,7 +48,7 @@
 							</div>
 
 
-						<p class="panel-title"> {{ config('app.name', 'NextBin') }} <i class="fa fa-angle-right fa-fw"></i> You</p>						</div>
+						<p class="panel-title"> {{ config('app.name', 'AirBNB-Spider') }} <i class="fa fa-angle-right fa-fw"></i> You</p>						</div>
 						<div class="panel-body">
 
 							<p>

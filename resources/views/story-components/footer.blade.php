@@ -8,6 +8,6 @@
       <li><a href="#" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>-->
       <li><a href="#contact" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
     </ul>
-    <p>&copy; {{ config('app.name', 'NextBin') }}. </br><a href="https://html5up.net">Base CSS Template by: HTML5 UP</a>.</p>
+    <p>&copy; {{ config('app.name', 'AirBNB-Spider') }}. </br><a href="https://html5up.net">Base CSS Template by: HTML5 UP</a>.</p>
   </div>
 </footer>

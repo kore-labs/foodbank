@@ -14,7 +14,9 @@
 
 //Home Page
 Route::get('/', function () {
-    return view('splash-page');
+  return view('airbnb');
+
+    //return view('splash-page');
 });
 
 Route::get('/signin', function () {

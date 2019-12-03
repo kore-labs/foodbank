@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => 'Food Bank', //env('APP_NAME', 'NextBin'),
+    'name' => 'AirBNB Spider', //env('APP_NAME', 'AirBNB-Spider'),
 
     /*
     |--------------------------------------------------------------------------

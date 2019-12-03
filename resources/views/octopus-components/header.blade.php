@@ -1,7 +1,7 @@
 <header class="header">
   <div class="logo-container">
     <span class="logo">
-      <logo >{{ config('app.name', 'NextBin') }}</logo>
+      <logo >{{ config('app.name', 'AirBNB-Spider') }}</logo>
     </span>
     <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
       <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
@@ -48,7 +48,7 @@
                   <div class="image">
                     <i class="fa fa-thumbs-down bg-success"></i>
                   </div>
-                  <span class="title">Welcome to {{ config('app.name', 'NextBin') }} </span>
+                  <span class="title">Welcome to {{ config('app.name', 'AirBNB-Spider') }} </span>
                   <span class="message">Just now</span>
                 </a>
               </li>

@@ -5,10 +5,10 @@
 		<!-- Basic -->
 		<meta charset="UTF-8">
 
-		<meta name="keywords" content="{{ config('app.name', 'NextBin') }} food waste collection" />
-		<meta name="description" content="{{ config('app.name', 'NextBin') }}">
+		<meta name="keywords" content="{{ config('app.name', 'AirBNB-Spider') }} food waste collection" />
+		<meta name="description" content="{{ config('app.name', 'AirBNB-Spider') }}">
 
-    <title>{{ config('app.name', 'NextBin') }}</title>
+    <title>{{ config('app.name', 'AirBNB-Spider') }}</title>
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />

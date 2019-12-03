@@ -6,10 +6,10 @@
 		<!-- Basic -->
 		<meta charset="UTF-8">
 
-		<title>{{ config('app.name', 'NextBin') }}</title>
-		<meta name="keywords" content="{{ config('app.name', 'NextBin') }}" />
-		<meta name="description" content="{{ config('app.name', 'NextBin') }} - Table to Farm food waste collection">
-		<meta name="author" content="{{ config('app.name', 'NextBin') }}.org">
+		<title>{{ config('app.name', 'AirBNB-Spider') }}</title>
+		<meta name="keywords" content="{{ config('app.name', 'AirBNB-Spider') }}" />
+		<meta name="description" content="{{ config('app.name', 'AirBNB-Spider') }} - Table to Farm food waste collection">
+		<meta name="author" content="{{ config('app.name', 'AirBNB-Spider') }}.org">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />

@@ -17,4 +17,4 @@ Under Development
 [Nikko Dutra](http://www.NikkoDutra.com)
 
 ### Copyright
-NextBin.
+AirBNB-Spider.
