@@ -15,12 +15,13 @@
         <div>
           <p>
               <?php
-                $data = \DB::table('account_info')->where('id', auth()->user()->id )->get();
+                $data = \DB::table('account_info')->where('email', auth()->user()->email )->first();
                ?>
-              Business Name: {{ $data[0]->business_name }}
+
+              Business Name: {{ $data->business_name }}
           </p>
           <p>
-            Address: <br>{{ $data[0]->business_address }}, {{ $data[0]->city }} {{ $data[0]->state }}, {{ $data[0]->zip }}
+            Address: <br>{{ $data->business_address }}, {{ $data->city }} {{ $data->state }}, {{ $data->zip }}
           </p>
 
 

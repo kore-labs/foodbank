@@ -15,7 +15,7 @@ class CreateAccountInfoTable extends Migration
     {
         Schema::create('account_info', function (Blueprint $table) {
 
-            $table->bigInteger('id')->unique();
+            $table->bigInteger('id');
 
             $table->string('contact_name');
             $table->string('email')->unique();

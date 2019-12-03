@@ -38,15 +38,12 @@
 													<div class="form-group">
 														<label class="col-sm-3 control-label" for="w4-username">Username</label>
 														<div class="col-sm-9">
-															<input type="text" class="form-control valid" name="username" id="w4-username" required="">
+                              <input type="hidden" name="email" id="w4-email" value="{{Auth::user()->email}}">
+
+															<input type="text" class="form-control valid" name="username" id="w4-username" value="{{Auth::user()->name}}" required="">
 														</div>
 													</div>
-													<div class="form-group">
-														<label class="col-sm-3 control-label" for="w4-password">Password</label>
-														<div class="col-sm-9">
-															<input type="password" class="form-control valid" name="password" id="w4-password" required="" minlength="6">
-														</div>
-													</div>
+													
 												</div>
 												<div id="w4-profile" class="tab-pane active">
 													<div class="form-group">

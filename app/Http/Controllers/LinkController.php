@@ -50,7 +50,7 @@ class LinkController extends Controller
     public function contactForm(Request $aRequest){
 
       //$aRequest->input('email')
-      
+
       $to_name = "NikkoDutra";
       $to_email = "nikko.novitas@gmail.com";
       $data = array('name'=>'test', 'body' => 'A test mail');
@@ -58,6 +58,16 @@ class LinkController extends Controller
       //Mail::to($to_email)->send(new ContactForm());
 
       return view('thank-you');
+
+    }
+
+    public function signup(Request $aRequest){
+
+      \Auth::logout();
+
+      return redirect()->route('register');
+
+
 
     }
 

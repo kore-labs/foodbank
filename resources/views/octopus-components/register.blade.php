@@ -9,7 +9,7 @@
 				<h2 class="black title text-uppercase text-bold m-none"><i class="fa fa-user mr-xs"></i> Sign Up</h2>
 			</div>
 			<div class="panel-body">
-				<form method="POST" action="{{ route('register') }}">
+				<form method="POST" action="/register">
 					@csrf
 
 

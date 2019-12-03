@@ -27,14 +27,14 @@ class HomeController extends Controller
     public function profile(Request $aRequest)
     {
 
-        $profileSet = DB::table('account_info')->where('id', auth()->user()->id )->count();
+        $profileSet = DB::table('account_info')->where('email', auth()->user()->email )->count();
         //dd($profileSet);
         if( $profileSet ){
           return view('dashboard.user-profile');
         }else{
+          DB::table('account_info')->where('email', auth()->user()->email )->count();
           return view('dashboard.new-user-wizard');
         }
-
 
     }
 
@@ -65,13 +65,16 @@ class HomeController extends Controller
                       "zip"=> $aRequest->input('zip'),
                       "phone"=>$aRequest->input('phone'),
                       "contact_name"=> $aRequest->input('fullname'),
-                      "id"=>auth()->user()->id
+                      "email"=> $aRequest->input('email'),
+                      "id"=> auth()->user()->id
                       ];
 
 
       $theAssessment->userExists = false;
 
-      $checkDB = DB::table('account_info')->where('id', auth()->user()->id )->count();
+      $checkDB = DB::table('account_info')->where('email', auth()->user()->email )->count();
+      //dd(auth()->user()->email);
+      //dd($checkDB);
       if( $checkDB ){
           //dd("You already validated your email.");
           $theAssessment->userExists = true;

@@ -25,6 +25,7 @@ Route::get('/signup', function () {
     return view('auth.register');
 })->name('signup');
 
+Route::get('/register', 'LinkController@signup');
 
 
 //Contact form logic on splash page
