@@ -14,10 +14,11 @@
 
 //Home Page
 Route::get('/', function () {
-  return view('airbnb');
 
-    //return view('splash-page');
+    return view('splash-page');
 });
+
+
 
 Route::get('/signin', function () {
     return view('auth.login');
@@ -62,7 +63,10 @@ Route::get('/billing-history', 'HomeController@billingHistory')->name('billing-h
 Route::get('/customer-support/cancelation', 'HomeController@cancelService')->name('cancel')->middleware(['auth']);
 
 
-
+//spider tool
+Route::get('/spider', function () {
+    return view('spider');
+});
 //Developer Tool
 Route::get('/ui-dev', function () {
     return view('ui-dev');
