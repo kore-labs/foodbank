@@ -67,6 +67,11 @@ Route::get('/customer-support/cancelation', 'HomeController@cancelService')->nam
 Route::get('/spider', function () {
     return view('spider');
 });
+
+//spider tool
+Route::get('/display', function () {
+    return view('display_data');
+});
 //Developer Tool
 Route::get('/ui-dev', function () {
     return view('ui-dev');
