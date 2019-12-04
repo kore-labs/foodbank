@@ -44,14 +44,16 @@ class DummyCron extends Command
 
       \Log::info("Dummy Cron Running!");
 
-      $days_offset = 18+8;
-      $day_range = $days_offset+4;
+      $days_offset = 14;
+      $day_range = $days_offset+50;
 
       $query = array();
       $query[] = "South Lake Tahoe";
       $query[] = "tahoe";
       $query[] = "kirkwood";
       $query[] = "olympic valley";
+
+$rv_array['has_listings'] = false;
 
 foreach( $query as $location ){
 
@@ -76,7 +78,7 @@ foreach( $query as $location ){
             //$status = $rv_array['status'];
 
             //More random sleep period
-            sleep( rand( rand(15,20), rand(21,45) ) );
+            sleep( rand( rand(17,25), rand(26,45) ) );
 
             if($status==false){
               //break;
@@ -86,7 +88,7 @@ foreach( $query as $location ){
 
             $section_offset = $rv_array['section_offset'];
             $items_offset = $rv_array['items_offset'];
-            $items_offset = $items_offset + rand(1, 50); //$items_offset + 50;
+            $items_offset = $items_offset + rand(1, 50); 
 
             echo "Passed: ".$items_offset."\n";
             if($items_offset > 1200 || ( !$rv_array['has_listings'] && $items_offset > 450 ) ){
