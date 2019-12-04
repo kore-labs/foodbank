@@ -44,8 +44,8 @@ class DummyCron extends Command
 
       \Log::info("Dummy Cron Running!");
 
-      $days_offset = 7;
-      $day_range = $days_offset+70;
+      $days_offset = 18+8;
+      $day_range = $days_offset+4;
 
       $query = array();
       $query[] = "South Lake Tahoe";
@@ -76,7 +76,7 @@ foreach( $query as $location ){
             //$status = $rv_array['status'];
 
             //More random sleep period
-            sleep( rand( rand(12,20), rand(30,45) ) );
+            sleep( rand( rand(15,20), rand(21,45) ) );
 
             if($status==false){
               //break;
@@ -89,7 +89,7 @@ foreach( $query as $location ){
             $items_offset = $items_offset + rand(1, 50); //$items_offset + 50;
 
             echo "Passed: ".$items_offset."\n";
-            if($items_offset > 2500 ){
+            if($items_offset > 1200 || ( !$rv_array['has_listings'] && $items_offset > 450 ) ){
               $status = false;
               break;
             }
@@ -235,10 +235,15 @@ foreach( $query as $location ){
 
         $listings = $json["explore_tabs"][0]["sections"][0]["listings"];
 
+        //echo "count: ".count($listings);
 
         //dd($listings);
 
         $result = "Result: ";
+        $count = 0;
+        $has_listings = false;
+
+
         // Itirate through all the results and display them in a table
         foreach($listings as $listing){
         	// Store our variables from each listing
@@ -283,12 +288,19 @@ foreach( $query as $location ){
         	   $reviews = $listing["listing"]["reviews_count"];
           }
 
+          $property = 0;
           if( isset($listing["listing"]["room_and_property_type"]) ){
         	   $property = $listing["listing"]["room_and_property_type"];
           }
 
-        	$price = $listing["pricing_quote"]["price_string"];
-        	$rate = $listing["pricing_quote"]["rate_type"];
+          $price = 0;
+          if( isset($listing["pricing_quote"]["price_string"]) ){
+        	   $price = $listing["pricing_quote"]["price_string"];
+          }
+          $rate=0;
+          if( isset($listing["pricing_quote"]["rate_type"]) ){
+            $rate = $listing["pricing_quote"]["rate_type"];
+          }
 
           $cleaning_fee = 0;
           $service_fee = 0;
@@ -309,13 +321,30 @@ foreach( $query as $location ){
             }
           }
 
+          $amenities=0;
+          if( isset($listing["listing"]["preview_amenity_names"])){
+            $amenities = json_encode( $listing["listing"]["preview_amenity_names"] );
 
-          $amenities = json_encode( $listing["listing"]["preview_amenity_names"] );
-          $min_nights = $listing["listing"]["min_nights"];;
-          $lat = $listing["listing"]["lat"];
-          $lng = $listing["listing"]["lng"];
+          }
 
-          $host_id = $listing["listing"]["user"]["id"];
+          $min_nights = 0;
+          if( isset($listing["listing"]["min_nights"])){
+            $min_nights = $listing["listing"]["min_nights"];
+          }
+          $lat=0;
+          if( isset($listing["listing"]["lat"])){
+            $lat = $listing["listing"]["lat"];
+          }
+          $lng =0;
+          if( isset($listing["listing"]["lng"])){
+            $lng = $listing["listing"]["lng"];
+
+          }
+
+          $host_id = 0;
+          if( isset($listing["listing"]["user"]["id"])){
+            $host_id = $listing["listing"]["user"]["id"];
+          }
 
 
 
@@ -357,9 +386,11 @@ foreach( $query as $location ){
                           ];
 
 
-                $result .= \DB::table('airbnb_rentals_2019_2020')->insertOrIgnore($accountInfo);
+                $rv = \DB::table('airbnb_rentals_2019_2020')->insertOrIgnore($accountInfo);
 
-                $result .=" - ";
+                $count += $rv;
+                $result .=$rv." - ";
+                $has_listings = true;
         	//$instantbook = $listing["pricing_quote"]["can_instant_book"];
 
         	// Echo each listings variable into a table row
@@ -379,9 +410,12 @@ foreach( $query as $location ){
         	echo "</tr>";*/
 
         }
+        $rv_array['has_listings'] = $has_listings;
         echo $result."\n";
         return $rv_array;
       }
+
+
 
 
 

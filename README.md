@@ -1,4 +1,4 @@
-# FoodBank Logistics 
+# FoodBank Logistics
 Laravel Project built on Laradock
 
 # Preview
@@ -18,4 +18,3 @@ Under Development
 
 ### Copyright
 FoodBank.
-# air-spider
