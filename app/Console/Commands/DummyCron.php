@@ -88,7 +88,7 @@ foreach( $query as $location ){
 
             $section_offset = $rv_array['section_offset'];
             $items_offset = $rv_array['items_offset'];
-            $items_offset = $items_offset + rand(1, 50); 
+            $items_offset = $items_offset + rand(1, 50);
 
             echo "Passed: ".$items_offset."\n";
             if($items_offset > 1200 || ( !$rv_array['has_listings'] && $items_offset > 450 ) ){
@@ -216,6 +216,7 @@ foreach( $query as $location ){
           //dd($json);
           echo "\nfailed";
           $rv_array['status'] = false;
+          $rv_array['has_listings'] = false;
           return $rv_array;
         }
 
@@ -250,6 +251,8 @@ foreach( $query as $location ){
         foreach($listings as $listing){
         	// Store our variables from each listing
         //dd($listing);
+
+
         	$id = $listing["listing"]["id"];
 
           $beds = 0;
