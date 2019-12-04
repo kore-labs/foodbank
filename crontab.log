@@ -1,0 +1,1319 @@
+Dummy Cron found
+Dummy Cron found
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 1  ] 
+section_offset: 5
+server item offset: 51
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Returned: 51
+Passed: 82
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 82  ] 
+section_offset: 5
+server item offset: 132
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Returned: 132
+Passed: 172
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 172  ] 
+section_offset: 5
+server item offset: 222
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Returned: 222
+Passed: 224
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 224  ] 
+section_offset: 5
+server item offset: 274
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Returned: 274
+Passed: 286
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 286  ] 
+section_offset: 5
+server item offset: 286
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Result: int(1)
+
+Returned: 286
+Passed: 303
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 303  ] 
+section_offset: 5
+server item offset: 303
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Returned: 303
+Passed: 320
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 320  ] 
+section_offset: 5
+server item offset: 320
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Returned: 320
+Passed: 327
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 327  ] 
+section_offset: 5
+server item offset: 327
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Returned: 327
+Passed: 361
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 361  ] 
+section_offset: 5
+server item offset: 361
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Returned: 361
+Passed: 383
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 383  ] 
+section_offset: 5
+server item offset: 383
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Returned: 383
+Passed: 433
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 433  ] 
+section_offset: 5
+server item offset: 433
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Returned: 433
+Passed: 434
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 434  ] 
+section_offset: 5
+server item offset: 434
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Returned: 434
+Passed: 481
+[--------------------------------------------------]
+
+ [ Starting GET for 2019-12-11 on  items_offset: 481  ] 
+section_offset: 5
+server item offset: 481
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+
+Result: int(0)
+

@@ -18,7 +18,7 @@ class DummyCron extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Get AirBNB listings';
 
     /**
      * Create a new command instance.
@@ -27,7 +27,11 @@ class DummyCron extends Command
      */
     public function __construct()
     {
+      echo "Dummy Cron found\n";
+
         parent::__construct();
+        //$this->handle();
+
     }
 
     /**
@@ -72,7 +76,7 @@ foreach( $query as $location ){
             //$status = $rv_array['status'];
 
             //More random sleep period
-            sleep( rand( rand(20,30), rand(45, 85) ) );
+            sleep( rand( rand(12,20), rand(30,45) ) );
 
             if($status==false){
               //break;
@@ -85,7 +89,7 @@ foreach( $query as $location ){
             $items_offset = $items_offset + rand(1, 50); //$items_offset + 50;
 
             echo "Passed: ".$items_offset."\n";
-            if($items_offset > 10000 ){
+            if($items_offset > 2500 ){
               $status = false;
               break;
             }
@@ -234,6 +238,7 @@ foreach( $query as $location ){
 
         //dd($listings);
 
+        $result = "Result: ";
         // Itirate through all the results and display them in a table
         foreach($listings as $listing){
         	// Store our variables from each listing
@@ -352,8 +357,9 @@ foreach( $query as $location ){
                           ];
 
 
-                \DB::table('airbnb_rentals_2019_2020')->insertOrIgnore($accountInfo);
+                $result .= \DB::table('airbnb_rentals_2019_2020')->insertOrIgnore($accountInfo);
 
+                $result .=" - ";
         	//$instantbook = $listing["pricing_quote"]["can_instant_book"];
 
         	// Echo each listings variable into a table row
@@ -373,6 +379,7 @@ foreach( $query as $location ){
         	echo "</tr>";*/
 
         }
+        echo $result."\n";
         return $rv_array;
       }
 

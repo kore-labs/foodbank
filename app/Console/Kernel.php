@@ -14,8 +14,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         //
-        Commands\DummyCron::class,
-
+        '\App\Console\Commands\DummyCron'
     ];
 
     /**
@@ -29,6 +28,9 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule->command('dummy:cron')->daily();
+        echo "scheduler called.\n";
+
+        //$schedule->command(\App\Console\Commands\DummyCron::class)->daily();
 
     }
 
@@ -39,6 +41,7 @@ class Kernel extends ConsoleKernel
      */
     protected function commands()
     {
+        //dd(__DIR__);
         $this->load(__DIR__.'/Commands');
 
         require base_path('routes/console.php');
