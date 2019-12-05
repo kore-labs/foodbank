@@ -11,7 +11,7 @@ class DummyCron extends Command
      *
      * @var string
      */
-    protected $signature = 'dummy:cron';
+    protected $signature = 'dummy:cron {days_offset=1} {day_range=7}';
 
     /**
      * The console command description.
@@ -44,8 +44,17 @@ class DummyCron extends Command
 
       \Log::info("Dummy Cron Running!");
 
-      $days_offset = 14;
-      $day_range = $days_offset+50;
+      $days_offset = 1;
+      if(  $this->argument('days_offset') != null ){
+        $days_offset = $this->argument('days_offset');
+      }
+
+      $day_range = $days_offset+7;
+      if( $this->argument('day_range') != null ){
+        $day_range = $days_offset+$this->argument('day_range');
+      }
+
+
 
       $query = array();
       $query[] = "South Lake Tahoe";
